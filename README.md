@@ -66,4 +66,18 @@ python3 wireless_controller.py
 ---
 <img width="2165" height="1129" alt="TT)7 PX@W7APB94G }_V~U7" src="https://github.com/user-attachments/assets/99a91fc1-e950-4ef6-8ae4-bc13a90ef5dd" />
 
+---
+
+## 🛠️ 编译 go2_ctrl（如需从源码构建）
+
+```bash
+cd ~/unitree_rl_lab/deploy/robots/go2
+mkdir -p build && cd build
+cmake ..
+make -j$(nproc)
+```
+
+要求：GCC ≥ 11、CMake ≥ 3.16。
+
+---
 
