@@ -26,6 +26,8 @@
 
 **第一步：启动仿真器**
 
+需要->INTERFACE = "eth0"
+
 ```bash
 cd ~/unitree_mujoco/simulate_python
 python3 unitree_mujoco.py
